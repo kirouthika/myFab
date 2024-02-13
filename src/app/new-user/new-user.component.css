@@ -1,0 +1,33 @@
+.form form {
+    padding: 15px;
+}
+
+.form {
+    width: 50%;
+    margin: 0 auto;
+}
+.form-group {
+    width: 100%;
+}
+
+label,
+input {
+    margin: 5px 0;
+}
+
+input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px double #b852e7;
+    width: 100%;
+}
+
+.btn-sec {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}

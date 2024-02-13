@@ -1,0 +1,25 @@
+.nav {
+    background-color: #030637;
+}
+.nav a{
+    text-decoration: none;
+    display: inline-block;
+}
+.btn {
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 3px;
+    font-size: 24px;
+    color: #fff;
+    display: inline-block;
+    margin: 3px;
+}
+
+.nav-btn {
+    background-color: #910A67;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 0px #720455;
+}

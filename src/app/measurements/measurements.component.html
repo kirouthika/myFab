@@ -1,0 +1,83 @@
+<form [formGroup]="measurementForm" (ngSubmit)="getmeasurements(measurementForm)">
+    <div class="form-group">
+        <label> shoulder:</label>
+        <input type="number" formControlName="shoulder" />
+    </div>
+    <div class="form-group">
+        <label> chest:</label>
+        <input type="number" formControlName="chest" />
+    </div>
+    <div class="form-group">
+        <label> waist:</label>
+        <input type="number" formControlName="waist" />
+    </div>
+    <div class="form-group">
+        <label> bust:</label>
+        <input type="number" formControlName="bust" />
+    </div>
+    <div class="form-group">
+        <label> hips:</label>
+        <input type="number" formControlName="hips" />
+    </div>
+    <div class="form-group">
+        <label> armhole:</label>
+        <input type="number" formControlName="armhole" />
+    </div>
+    <div class="form-group">
+        <label> cap height:</label>
+        <input type="number" formControlName="cap height" />
+    </div>
+    <div class="form-group">
+        <label> sleeve length:</label>
+        <input type="number" formControlName="sleeve length" />
+    </div>
+    <div class="form-group">
+        <label> sleeve round:</label>
+        <input type="number" formControlName="sleeve-round" />
+    </div>
+    <div class="form-group">
+        <label> shoulder to pivot:</label>
+        <input type="number" formControlName="shoulder-pivot" />
+    </div>
+    <div class="form-group">
+        <label> pivot distance:</label>
+        <input type="number" formControlName="pivot-distance" />
+    </div>
+    <div class="form-group">
+        <label> front neck depth:</label>
+        <input type="number" formControlName="fnd" />
+    </div>
+    <div class="form-group">
+        <label> back neck depth:</label>
+        <input type="number" formControlName="bnd" />
+    </div>
+    <div class="form-group">
+        <label> bodice length:</label>
+        <input type="number" formControlName="bodice-length" />
+    </div>
+    <div class="form-group">
+        <label> waist to seat:</label>
+        <input type="number" formControlName="waist-seat" />
+    </div>
+    <div class="form-group">
+        <label> seat depth:</label>
+        <input type="number" formControlName="seat-depth" />
+    </div>
+    <div class="form-group">
+        <label>crotch depth:</label>
+        <input type="number" formControlName="crotch-depth" />
+    </div>
+    <div class="form-group">
+        <label> hi-low crotch:</label>
+        <input type="number" formControlName="hi-low-crotch" />
+    </div>
+    <div class="form-group">
+        <label>Skirt Length</label>
+        <input type="number" formControlName="waist-knee" />
+    </div>
+    <div class="form-group">
+        <label> belt height:</label>
+        <input type="number" formControlName="belt-height" />
+    </div>
+    <button type="submit" class="btn btn-primary">Add Measurement</button>
+</form>

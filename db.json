@@ -1,0 +1,37 @@
+{
+  "nav": [
+    {
+      "title": "Add user",
+      "url": "/new-user",
+      "id": "c9ed"
+    },
+    {
+      "title": "User Collection",
+      "url": "/my-collections",
+      "id": "aa84"
+    },
+    {
+      "title": "Designs",
+      "url": "/designs",
+      "id": "7001"
+    }
+  ],
+  "user": [
+    {
+      "id": "d8c8",
+      "name": "sdfed",
+      "email": "ssdfds@gg.g",
+      "phone": "123453345678"
+    }
+  ],
+  "designs": [
+    {
+      "dId": "D001",
+      "name": "Design One",
+      "description": "This is Design One.",
+      "price": 59.99,
+      "category": "Category A",
+      "id": "73da"
+    }
+  ]
+}
